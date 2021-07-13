@@ -11,15 +11,19 @@ body, html {
     background: linear-gradient(#00d2ff, #928dab);
 }
 
+.wrapper {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -40%);
+}
+
 .container {
     width: 500px;
     height: 490px;
     background-color: #ccc;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 15px;
 }
 
 .container input {
@@ -50,11 +54,8 @@ body, html {
 }
 
 .textfield {
+    margin-bottom: 10px;
     width: 500px;
-    position: absolute;
-    top: 22%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     border-radius: 15px;
     height: 100px;
     border-radius: 15px;
